@@ -1,0 +1,4 @@
+# DSH API 网关 —— 把 DSH 里的伙伴接成 OpenAI 兼容接口
+- insert:
+    - id: api-gateway
+      name: 'dsh-api-gateway'

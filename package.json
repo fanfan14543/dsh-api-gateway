@@ -1,0 +1,27 @@
+{
+  "name": "dsh-api-gateway",
+  "version": "1.0.0",
+  "description": "给 DSH 开一个本地 OpenAI 兼容 API：外部程序（手机客户端、别的 AI、脚本）可以直接跟 DSH 里的伙伴对话。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "openai-api",
+    "gateway"
+  ]
+}
